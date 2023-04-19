@@ -3,6 +3,11 @@ import requests
 import webbrowser
 from random import randint
 
+st.set_page_config(
+        page_title="sasta reeta reporter, inshorts ka the end. - Mahir",
+        page_icon="house_buildings",
+        layout='centered',
+    )
 
 
 st.title("News app by: Mahir Barot.")
